@@ -1,1 +1,17 @@
+.big-button {
+    display:flex;
+    flex-direction: row;
+    align-items:stretch;
+}
 
+.btn {
+    text-align:center;
+    width:96%;
+    margin: 2%;
+    font-size: x-large!important;
+    padding: 10%!important;
+}
+
+.navbar {
+    padding: 50px;
+}
