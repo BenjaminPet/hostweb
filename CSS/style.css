@@ -12,6 +12,22 @@
     padding: 10%!important;
 }
 
+img {
+    margin: 10px;
+}
+
+.title {
+    margin: 50px
+}
+
 .navbar {
     padding: 50px;
+}
+
+.box {
+    padding: 50px 10%;
+}
+
+.gray{
+    background-color: rgba(128, 128, 128, 0.461);
 }
