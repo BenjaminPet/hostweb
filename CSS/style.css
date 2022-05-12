@@ -1,3 +1,7 @@
+body {
+    background-color: #FAFAFA!important;
+}
+
 .big-button {
     display:flex;
     flex-direction: row;
@@ -22,6 +26,8 @@ img {
 
 .navbar {
     padding: 50px;
+    background-color: #C7EEFF;
+
 }
 
 .box {
@@ -29,5 +35,10 @@ img {
 }
 
 .gray{
-    background-color: rgba(128, 128, 128, 0.461);
+    background-color: #0077C0;
+}
+
+.active .nav-link {
+    color:#1D242B!important;
+      text-decoration: underline;
 }
