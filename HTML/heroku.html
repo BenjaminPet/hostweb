@@ -40,7 +40,7 @@
         
             <p>Gå inn på new og tryk på "Create new app"</p>
         
-            <img src="../resurser/heroku/heroku1.PNG" alt="heroku repositories" class="w-100 p-3">
+            <img src="../resurser/heroku/heroku1.png" alt="heroku repositories" class="w-100 p-3">
           </div>
         
           <div class="box">
@@ -48,33 +48,45 @@
         
             <p>Skriv inn App name, choose a region og eventuelt "add pipeline" også klikk "create app"</p>
         
-            <img src="../resurser/heroku/heroku2.PNG" alt="heroku create new app page" class="w-100 p-3">
+            <img src="../resurser/heroku/heroku2.png" alt="heroku create new app page" class="w-100 p-3">
           </div>
         
           <div class="box gray">
             <h3>Step 4</h3>
         
-            <p>Gå inn på "deploy" og trykk på github hvis du vill linke github reposetoren din eller gå på heroku og følg steppene</p>
+            <p>Gå inn på "deploy" og trykk på github hvis du vill linke github reposetoren din eller gå på heroku CLI kan du følge steppene får å manuelt koble github coden til heroku</p>
         
-            <img src="../resurser/heroku/heroku3.PNG" alt="heroku deploy page" class="w-100 p-3">
+            <img src="../resurser/heroku/heroku3.png" alt="heroku deploy page" class="w-100 p-3">
           </div>
 
-          <h2 class="text-center title">how to deploy code to heroku</h2>
+          <h2 class="text-center title">how to deploy code to heroku via heroku CLI</h2>
 
           <div class="box">
             <h3>Step 1</h3>
         
-            <p>Så kan du legge til eller lage en js og css file ved å klikke add file endten "create new file" eller "uploade"
-            </p>
+            <p>Først så går du på kommands og cd til din git coden din. </p>
         
-            <img src="../resurser/heroku/heroku4.PNG" alt="github repository code page" class="w-100 p-3">
+            <img src="../resurser/heroku/heroku4.png" alt="github repository code page" class="w-100 p-3">
           </div>
         
           <div class="box gray">
             <h3>Step 2</h3>
         
-            <p>gå inn på settings og in på pages. Inne på source så leger du til din branch og trykker save. den linken som
-              dukker opp er din public webside</p>
+            <p>Så skriv inn "heroku login" også "git add ." og "git commit -am 'make it better'" får å pushe det du har gjort</p>
+          </div>
+
+          <div class="box">
+            <h3>Step 3</h3>
+        
+            <p>Etter det skriver du in "heroku git:remote -a reposetoryname" får å linke dem</p>
+        
+            <img src="../resurser/heroku/heroku4.png" alt="github repository code page" class="w-100 p-3">
+          </div>
+
+          <div class="box gray">
+            <h3>Step 2</h3>
+        
+            <p>Så skriv inn inn git add og git commit. Etter det skriv inn "git push heroku master" eller "git push heroku main" hvis det er din branch navn</p>
           </div>
         
         
