@@ -30,6 +30,11 @@ img {
 
 }
 
+.navbar-brand {
+    color: #1D242B;
+    font-weight: 700;
+}
+
 .box {
     padding: 50px 10%;
 }
@@ -39,6 +44,6 @@ img {
 }
 
 .active .nav-link {
-    color:#1D242B!important;
+    color:0077C0!important;
       text-decoration: underline;
 }
