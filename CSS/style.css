@@ -1,5 +1,5 @@
 body {
-    background-color: #F5F5F5!important;
+    background-image: url("../resurser/cool-background.png")!important;
     line-height: var(--bs-body-line-height);
 }
 
