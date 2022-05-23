@@ -3,6 +3,10 @@ body {
     line-height: var(--bs-body-line-height);
 }
 
+h2 {
+    margin: 5%;
+}
+
 .big-button {
     display:flex;
     flex-direction: row;
@@ -54,9 +58,11 @@ img {
 }
 
 .nav-link:active {
-    color: white;
     background-color: #40514E;
+}
 
+a {
+    text-decoration: underline;
 }
 
 .box {
@@ -64,10 +70,15 @@ img {
 }
 
 .gray{
+    color:F5F5F5;
     background-color: #2F89FC;
 }
 
 .active .nav-link {
     border: solid #40514E 5px;
     padding: 20px 30px!important;
+}
+
+.video-js {
+    margin: 70px;
 }
