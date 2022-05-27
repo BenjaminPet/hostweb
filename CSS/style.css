@@ -7,6 +7,27 @@ h2 {
     margin: 5%;
 }
 
+.button {
+    background-color:#2F89FC;
+    border-radius: 10px;
+    border: #40514E solid 2px;
+    margin:10%;
+    padding: 30px 70px;
+    font-size: xx-large;
+    
+}
+.button:hover {
+    background-color:#40514E;
+    color: white;
+    border: 0;
+    box-shadow: #40514E 1px 1px 10px;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+}
+
 .big-button {
     display:flex;
     flex-direction: row;
